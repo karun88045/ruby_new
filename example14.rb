@@ -18,8 +18,8 @@ class Distance
   end
   def output
     no_of_test_cases.times do
-	  user_input()
-	  if @x*5 >= @y
+      user_input()
+      if @x*5 >= @y
         puts("YES")
       else
         puts("NO")
