@@ -13,15 +13,15 @@ class Total_Income
     # @y = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  if @x >= 100
-		@x = @x - 10
-		puts @x
-	  else
-		puts @x
-	  end
-	end
+    no_of_test_cases.times do
+      user_input()
+      if @x >= 100
+        @x = @x - 10
+	puts @x
+      else
+        puts @x
+      end
+   end
   end
 end
 Total_Income.new.output()
