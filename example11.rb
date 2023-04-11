@@ -3,26 +3,26 @@
 
 class Burger
   def no_of_test_cases
-	puts "Enter no_of_test_cases"
-	gets.chomp.to_i
+    puts "Enter no_of_test_cases"
+    gets.chomp.to_i
   end
   def user_input
     puts "Enetr A patties and B buns:"
     @patties = gets.chomp.to_i
-	@buns = gets.chomp.to_i
+    @buns = gets.chomp.to_i
   end
   def output
     no_of_test_cases.times do
-	  user_input()
-	  if @patties == @buns
-	    puts @patties
-	  elsif @patties > @buns
-		puts @buns
-	  elsif @patties < @buns
-		puts @patties
-	  else
-		puts @buns
-	  end
+      user_input()
+      if @patties == @buns
+        puts @patties
+      elsif @patties > @buns
+	puts @buns
+      elsif @patties < @buns
+        puts @patties
+      else
+        puts @buns
+      end
     end
   end
 end
