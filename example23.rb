@@ -15,11 +15,11 @@ class Test
     @n = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  point = @x/10
-	  puts @n * point
-	end
+    no_of_test_cases.times do
+      user_input()
+      point = @x/10
+      puts @n * point
+    end
   end
 end
 Test.new.output()
