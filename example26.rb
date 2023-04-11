@@ -14,14 +14,14 @@ class Check
     # @y = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  if @x >= 30
+    no_of_test_cases.times do
+      user_input()
+      if @x >= 30
         puts "Yes"
-	  else
-		puts "No"
-	  end
-	end
+      else
+        puts "No"
+      end
+    end
   end
 end
 Check.new.output()
