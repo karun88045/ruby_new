@@ -13,10 +13,10 @@ class Gym
     @x = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  puts "Total no of Squats: #{@x * 15}"
-	end
+    no_of_test_cases.times do
+      user_input()
+      puts "Total no of Squats: #{@x * 15}"
+    end
   end
 end
 Gym.new.output()
