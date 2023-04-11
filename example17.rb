@@ -10,20 +10,20 @@ class Test
     gets.chomp.to_i
   end
   def user_input
-		puts "Enter No of X and Y moves:"
+    puts "Enter No of X and Y moves:"
     @n = gets.chomp.to_i
     @x = gets.chomp.to_i
     @y = gets.chomp.to_i
   end
   def output
     no_of_test_cases.times do
-	  user_input()
-	  if (@y-@x)%2==0
+      user_input()
+      if (@y-@x)%2==0
         puts("Janmansh")
       else
         puts("Jay")
       end
-	end
+    end
   end
 end
 Test.new.output()
