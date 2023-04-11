@@ -1,7 +1,3 @@
-
-
-
-
 class SolvingProblem
   def no_of_test_cases
     puts "Enter no_of_test_cases"
@@ -18,11 +14,11 @@ class SolvingProblem
       user_input()
       c=@x*@y
     	if(c>=@z)
-	      a=@z/@y
-	      k=@y*a 
-	      g=@z-k
-      	result=(a*@y*@y)+g*g
-      	puts(result)
+	  a=@z/@y
+	  k=@y*a 
+	  g=@z-k
+      	  result=(a*@y*@y)+g*g
+      	  puts(result)
     	else
         puts(@x*@y*@y)
       end
