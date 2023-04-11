@@ -15,13 +15,13 @@ class Cricket
     @y = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  if @x and @y
-	    @x = @x - @y
-		puts @x
-	  end
-	end
+    no_of_test_cases.times do
+      user_input()
+      if @x and @y
+        @x = @x - @y
+        puts @x
+      end
+    end
   end
 end
 Cricket.new.output()
