@@ -3,10 +3,6 @@
 # 51 to Rank 
 # 100 will get 50% percentage scholarship on the ZCO exam fee. 
 # The rest do not get any scholarship.What percentage of scholarship will you get ?
-
-
-
-
 class Scholarship
   def no_of_test_cases
     puts "Enter no_of_test_cases"
@@ -18,14 +14,14 @@ class Scholarship
   end
   def output
     no_of_test_cases.times do
-    user_input
-		if(@r<=50)
-		  puts("100")
-		elsif(@r>50 && @r<=100)
-			puts("50")
-		else
-			puts("0")
-		end
+      user_input
+      if(@r<=50)
+        puts("100")
+      elsif(@r>50 && @r<=100)
+        puts("50")
+      else
+        puts("0")
+      end
     end
   end
 end
