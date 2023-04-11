@@ -15,14 +15,14 @@ class Frequency
     # @y = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  if @x >= 67 && @x <= 45000
-	    puts "Yes"
-	  else
-	    puts "No"
-	  end
-	end
+    no_of_test_cases.times do
+      user_input()
+      if @x >= 67 && @x <= 45000
+        puts "Yes"
+      else
+	puts "No"
+      end
+    end
   end
 end
 Frequency.new.output()
