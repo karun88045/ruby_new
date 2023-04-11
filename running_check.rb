@@ -12,15 +12,14 @@ class Check_run
   def result()
     t = times
     t.times do
-	  user_input()
-	  if @number2 > @number1
-	    puts "Yes Tom will catch Jerry"
-	  else
-	    puts "No Tom will no catch Jerry"
-	  end
+      user_input()
+      if @number2 > @number1
+        puts "Yes Tom will catch Jerry"
+      else
+        puts "No Tom will no catch Jerry"
+      end
      end
   end
 end
-
 obj = Check_run.new
 obj.result
