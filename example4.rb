@@ -3,8 +3,6 @@
 # M students that can register for it. If there are 
 # K other students who have already enrolled in the course, determine if it will still be possible for all the 
 # N friends to do so or not.
-
-
 class Group
   def test_cases
     puts "Enter no of test cases:"
@@ -23,7 +21,7 @@ class Group
     max_capacity()
     std_already_enrolled()
     if @student < @capacity && @friends < @capacity
-	  puts "possible"
+      puts "possible"
     else
       puts "not possible"
     end
