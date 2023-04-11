@@ -16,14 +16,14 @@ class Measurement
     @y = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  if @x > @y
-	    puts "Alice"
-	  else
-	    puts "Bob"
-	  end
-	end
+    no_of_test_cases.times do
+      user_input()
+      if @x > @y
+        puts "Alice"
+      else
+	puts "Bob"
+      end
+    end
   end
 end
 Measurement.new.output()
