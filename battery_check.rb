@@ -1,16 +1,16 @@
 # class Check
-#     def user
-#         puts "Enter Battery %"
-#         @x = gets.chomp.to_i
+#   def user
+#     puts "Enter Battery %"
+#     @x = gets.chomp.to_i
+#   end
+#   def output
+#     user()
+#     if @x >= 80
+#       puts "optimal condition."
+#     else
+#       puts "Not optimal condition"
 #     end
-#     def output
-#         user()
-#         if @x >= 80
-#             puts "optimal condition."
-#         else
-#             puts "Not optimal condition"
-#         end
-#     end
+#   end
 # end
 
 # Check.new().output
