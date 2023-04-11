@@ -17,10 +17,9 @@ class Earn
     @y = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-			
-	end
+    no_of_test_cases.times do
+      user_input()		
+    end
   end
 end
 Earn.new.output()
