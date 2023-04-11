@@ -16,11 +16,11 @@ class Travel
   end
   def output
     no_of_test_cases.times do
-	  user_input()
-	  @x = @x * 5
-	  @y = @y * 7
-	  @z = @x + @y
-	  puts @z
+      user_input()
+      @x = @x * 5
+      @y = @y * 7
+      @z = @x + @y
+      puts @z
     end
   end
 end
