@@ -1,7 +1,3 @@
-
-
-
-
 class Language
   def no_of_test_cases
     puts "Enter no_of_test_cases"
@@ -19,14 +15,14 @@ class Language
   def output
     no_of_test_cases.times do
       user_input()
-	    if (@A1==@A or @A1==@B) and (@B1==@B or @B1==@A)
-	      print("1")
-	    elsif (@A2==@A or @A2==@B) and (@B2==@B or @B2==@A)
-	      print("2")
-	    else
-	      print("0")
-	    end
-	  end
+      if (@A1==@A or @A1==@B) and (@B1==@B or @B1==@A)
+        print("1")
+      elsif (@A2==@A or @A2==@B) and (@B2==@B or @B2==@A)
+	print("2")
+      else
+	print("0")
+      end
+    end
   end
 end
 Language.new.output()
