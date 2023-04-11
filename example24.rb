@@ -13,11 +13,11 @@ class Working
     @y = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  z = @y - @x
-	  puts z
-	end
+    no_of_test_cases.times do
+      user_input()
+      z = @y - @x
+      puts z
+    end
   end
 end
 Working.new.output()
