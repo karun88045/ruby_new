@@ -3,13 +3,10 @@
 # A,B, and 
 # C rupees respectively and a Netflix subscription costs 
 # X rupees, find whether any two of them can contribute to buy a subscription.
-
-
 class Netflix 
   def number_of_case
     gets.chomp.to_i 
   end
- 
   def money
   	puts "Enter money Respectively:"
     @x =  gets.chomp.to_i
@@ -17,7 +14,6 @@ class Netflix
     @z = gets.chomp.to_i
     @sub = gets.chomp.to_i
   end
- 
   def result
     if @x + @y == @sub
     	"Yes"
@@ -29,7 +25,6 @@ class Netflix
     	"No"
     end
   end
-
   def output
     t  =  number_of_case
     t.times do
@@ -38,5 +33,4 @@ class Netflix
     end
   end
 end
-
 Netflix.new().output
