@@ -9,9 +9,9 @@ class Check_light
     @n = gets.chomp.to_i
   end
   def output
-	test_cases.times do
-	  user_input
-	  if (@k >= 1 && @k < 4)
+    test_cases.times do
+      user_input
+      if (@k >= 1 && @k < 4)
         if (@n >= 1 && @n < 4)
           puts("ON")
         elsif (@n == 4)
@@ -19,7 +19,7 @@ class Check_light
         else
           puts "AMBIGUOUS"
         end
-   	  else
+      else
         puts "AMBIGUOUS"
       end
         # if @k = 0 && @n = 1
@@ -33,7 +33,7 @@ class Check_light
         # else
         # 	puts"AMBIGUOUS"
         # end
-	end
+     end
   end
 end
 
