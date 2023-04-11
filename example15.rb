@@ -16,14 +16,14 @@ class Cab
   end
   def output
     no_of_test_cases.times do
-	  user_input()
-	  if @x < @y
-      puts("FIRST")
-    elsif @x == @y
-      puts("BOTH")
-    else
-      puts("SECOND")
-    end
-	end
+      user_input()
+      if @x < @y
+        puts("FIRST")
+      elsif @x == @y
+        puts("BOTH")
+      else
+        puts("SECOND")
+      end
+   end
 end
 Cab.new.output()
