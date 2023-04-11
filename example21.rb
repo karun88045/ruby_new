@@ -16,10 +16,10 @@ class Survey
     @y = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  puts @x * @y
-	end
+    no_of_test_cases.times do
+      user_input()
+      puts @x * @y
+    end
   end
 end
 Survey.new.output()
