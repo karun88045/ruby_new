@@ -13,12 +13,12 @@ class Ludo
   end
   def output
     no_of_test_cases.times do
-	  user_input()
-	  if @rolls == 6
-	    puts "Yes"
-	  else
-	    puts "No"
-	  end
+      user_input()
+      if @rolls == 6
+        puts "Yes"
+      else
+	puts "No"
+      end
     end
   end
 end
