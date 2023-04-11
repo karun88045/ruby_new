@@ -12,14 +12,14 @@ class Drink_Water
     # @y = gets.chomp.to_i
   end
   def output
-	no_of_test_cases.times do
-	  user_input()
-	  if @x >= 2000
-	    puts "Yes"
-	  else
-		puts "No"
-	  end
-	end
+    no_of_test_cases.times do
+      user_input()
+      if @x >= 2000
+        puts "Yes"
+      else
+	puts "No"
+      end
+    end
   end
 end
 Drink_Water.new.output()
